@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Post-Install Configuration</h1>
-This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
+In this tutorial, I will outline the post-install configuration of the open-source help desk ticketing system, osTicket.<br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -30,7 +30,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <img width="1913" height="1005" alt="admin login screen" src="https://github.com/user-attachments/assets/ef6f08b9-a81c-4f03-80d7-e995b66ef4eb" /> 
 </p>
 <p>
-The first thing that we will do is Login in with the username and password we created when we installed OsTicket. This will take us to the admin panel.
+The first thing that we will do is log in with the username and password we created when we installed osTicket. This will take us to the Admin Panel.
 </p>
 <br />
 
@@ -38,7 +38,7 @@ The first thing that we will do is Login in with the username and password we cr
 <img width="999" height="953" alt="admin panel" src="https://github.com/user-attachments/assets/f29c47ca-8d8e-4f0f-b45f-54e73e248823" />
 </p>
 <p>
-The admin panel is were we will configure settings for OsTicket, such as creating agents, editing SLA's, making departments, etc.
+The Admin Panel is where we will configure settings for osTicket, such as creating agents, editing SLA's, making departments, etc.
 </p>
 <br />  
 
@@ -46,7 +46,7 @@ The admin panel is were we will configure settings for OsTicket, such as creatin
 <img width="1919" height="1040" alt="agent panel" src="https://github.com/user-attachments/assets/2869bfc9-dba4-4620-b25c-c86fc385857f" />
 </p>
 <p>
-The Agent panel is for agents to work on the actual tickets, like a sysadmin wokring on a ticket for the network being down.
+The Agent Panel is where agents (IT professionals) log in to and work on the actual tickets. For example, a sysadmin would log in to the Agent Panel to wokr on a ticket for the network being down.
 </p>
 <br />  
 
@@ -57,7 +57,7 @@ The Agent panel is for agents to work on the actual tickets, like a sysadmin wok
 <img width="982" height="539" alt="agents " src="https://github.com/user-attachments/assets/13c6967e-338e-4d09-a4c3-494b595352d7" />
 </p>
 <p>
-To create a new agent, go to admin panel > agents > create > "Add New Agent".
+To create a new agent, go to the Admin Panel > Agents > Create > "Add New Agent".
 </p> 
 <br /> 
 
@@ -65,7 +65,7 @@ To create a new agent, go to admin panel > agents > create > "Add New Agent".
 <img width="1084" height="743" alt="creating a user" src="https://github.com/user-attachments/assets/d4287a64-1949-452d-bc37-8a00f9108265" />
 </p>
 <p>
-From there, we can fill in an agent's info. We can also assign them a role, department and  a team. We can also assign them a password or send them an email to create their own password/
+From there, we can fill out an agent's info. We can also assign them a role, department and a team. We can also assign them a password or send them an email to create their own password.
 </p>
 <br /> 
 
@@ -73,7 +73,7 @@ From there, we can fill in an agent's info. We can also assign them a role, depa
 <img width="1025" height="508" alt="agents created " src="https://github.com/user-attachments/assets/d9b0fa7e-38f9-4f0c-9c9a-9387be39cf02" />
 </p>
 <p>
-We can go back to admin panel > agents to see that our agent was created. 
+We can go back to the Admin Panel > Agents and see that our agent was created. 
 </p>
 <br /> 
 
@@ -83,7 +83,7 @@ We can go back to admin panel > agents to see that our agent was created.
 <img width="983" height="688" alt="roles" src="https://github.com/user-attachments/assets/9752f90b-9ce8-4e58-8acd-875e431bf24c" />
 </p>
 <p>
-Roles are grouped permissions you can give to agents. You can see the roles that you currently have by going to admin panel > agents > roles. You can create a new role by clicking "Add New Role" role.
+Roles are grouped permissions you can give to agents. You can see the roles that you currently have by going to the Admin Panel > Agents > Roles. You can create a new role by clicking "Add New Role".
 </p>
 <br />  
 
@@ -93,7 +93,7 @@ Roles are grouped permissions you can give to agents. You can see the roles that
 <img width="997" height="529" alt="departments " src="https://github.com/user-attachments/assets/472d0b8b-2abf-4728-9698-cd46507d60bf" />
 </p>
 <p>
-A department is a grouping of agents that determines what tickets they will receive. For example, sysadmins will receive sysadmin tickets while people in Help Desk will receive help desk tickets. You can veiw what departments you have by going to admin panel > agents > departments.
+A department is a grouping of agents that determines what tickets they will receive. For example, sysadmins will receive sysadmin tickets while people in help desk will receive help desk tickets. You can view what departments you have by going to the Admin Panel > Agents > Departments.
 </p>
 <br />  
 
@@ -109,7 +109,7 @@ You can create a new department by clicking "Add New Department".
 <img width="1016" height="615" alt="department created " src="https://github.com/user-attachments/assets/7cfde6db-9879-4ac7-bc33-957b03beb94b" />
 </p>
 <p>
-Once you created a department you can see it on admin panel > agents> departments.
+Once you created a department you can see it by going to the Admin Panel > Agents> Departments.
 </p>
 <br />  
 
@@ -119,7 +119,7 @@ Once you created a department you can see it on admin panel > agents> department
 <img width="991" height="480" alt="teams" src="https://github.com/user-attachments/assets/1832b659-46b2-476c-a4d3-1b968fde620d" />
 </p>
 <p>
-A team is made up of agents from different departments. This is helpful, beaucse you can make a team made up of people with different skills that is focused on one thing, like an online banking app the company uses. You can see what teams you have by going to admin panel > agents > teams.
+A team is made up of agents from different departments. This is helpful, beaucse you can make a team made up of people with different skills that are focused on one thing, like an online banking app the company uses. You can see what teams you have by going to the Admin Panel > Agents > Teams.
 </p>
 <br />  
 
@@ -127,7 +127,7 @@ A team is made up of agents from different departments. This is helpful, beaucse
 <img width="986" height="758" alt="creating a team" src="https://github.com/user-attachments/assets/2942d424-6f00-421f-986d-50328274dc64" />
 </p>
 <p>
-You can create a new team by clicking " Add New Team"
+You can create a new team by clicking "Add New Team".
 </p>
 <br />  
 
@@ -135,7 +135,7 @@ You can create a new team by clicking " Add New Team"
 <img width="993" height="789" alt="team created" src="https://github.com/user-attachments/assets/9e233c49-8bc9-44eb-bff2-5fd85270f14a" />
 </p>
 <p>
-Once you created a team you can see it on admin panel > agents > teams.
+Once you created a team you can see it by going to the Admin Panel > Agents > Teams.
 </p>
 <br />  
 
@@ -145,7 +145,7 @@ Once you created a team you can see it on admin panel > agents > teams.
 <img width="1042" height="591" alt="help topics " src="https://github.com/user-attachments/assets/9b11b177-5c76-4f68-8e21-92a01d93ef7c" />
 </p>
 <p>
-When users make a ticket, they can select a help topic to classify their ticket. You can have a help topic called "forgot password" for example. You can veiw what help topics you have by going to admin panel > manage > help topics.
+When users make a ticket, they can select a help topic to classify their ticket. You can have a help topic called "forgot password" for example. You can view what help topics you have by going to the Admin Panel > Manage > Help Topics.
 </p>
 <br />  
 
@@ -153,7 +153,7 @@ When users make a ticket, they can select a help topic to classify their ticket.
 <img width="1044" height="759" alt="help topic " src="https://github.com/user-attachments/assets/32055f48-3c64-43cf-b2b6-8b27a25b4417" />
 </p>
 <p>
-You can create a new help topic by clicking " Add New Help Topic".
+You can create a new help topic by clicking "Add New Help Topic".
 </p>
 <br />  
 
@@ -161,7 +161,7 @@ You can create a new help topic by clicking " Add New Help Topic".
 <img width="1068" height="676" alt="help topic added" src="https://github.com/user-attachments/assets/5bd97014-3d79-4951-8ddb-50627a222ece" />
 </p>
 <p>
-Once you created a help topic you can see it on admin panel > manage > help topics.
+Once you created a help topic you can see it by going to Admin Panel > Manage > Help Topics.
 </p>
 <br />  
 
@@ -171,7 +171,7 @@ Once you created a help topic you can see it on admin panel > manage > help topi
 <img width="1075" height="531" alt="SLA" src="https://github.com/user-attachments/assets/168d479a-5d2c-4034-949c-81e64b7ceef0" />
 </p>
 <p>
-An SLA is a service level agreement. It is a set of rules for how a ticket should be done, like how long it should take to be completed. You can view what SLA's you have by going to admin panel > manage > SLA's.
+An SLA is a service level agreement. It is a set of rules for how a tickets should be done, like how long it should take to be completed. You can view what SLA's you have by going to the Admin Panel > Manage > SLA's.
 </p>
 <br />  
 
@@ -187,9 +187,19 @@ You can create a new SLA by clicking "Add New SLA". You can set things like how 
 <img width="994" height="540" alt="SLA created" src="https://github.com/user-attachments/assets/f81e34cb-f866-4168-aa22-ff93225d33e8" />
 </p>
 <p>
-Once you created a SLA you can see it on admin panel > manage > SLA's.
+Once you created a SLA you can see it by going to the Admin Panel > Manage > SLA's.
 </p>
-<br /> 
+<br />   
+
+<p>
+To see how to actually work on a ticket in osTicket, go to this tutorial: 
+
+[osTicket: Working on a Ticket](https://github.com/JosephShamoon99/osTicket-Working-on-a-Ticket)
+</p>
+<br />  
+
+
+
 
 
 
